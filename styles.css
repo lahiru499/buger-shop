@@ -1,0 +1,109 @@
+input[type=text], select {
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  button {
+   background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+
+.div-main{
+    display: flex;
+    justify-content: center;
+    gap: 5%;
+}
+
+.title-div{
+    text-align: center;
+}
+
+.c-label{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 25%;
+}
+
+.c-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.Customer-content{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.od-label{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 25%;
+}
+
+.od-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.od-content{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+tr{
+    text-align: center;
+}
+
+table, td ,th{
+    border-collapse: collapse;
+    border: 1px solid !important;
+}
+
+table{
+    width: 100%;
+}
+h1{
+    padding: 40px;
+    font-family: "Sofia", sans-serif !important;
+
+}
+
+h1,h2,h3{
+    margin: 20px !important;
+
+    font-family: 'Times New Roman';
+    font-weight: bolder;
+    color: white !important;
+}
+
+#foodItemsTable{
+    width: 150%;
+    background-color: #2a2828;
+    color: aliceblue;
+    border-color: #2a2828;
+}
+body{
+ background-color: black !important;
+}
+
+
+  
